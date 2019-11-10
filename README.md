@@ -1,2 +1,3 @@
-rock-paper-scissors game 
-html, css, js
+rock-paper-scissors game. 
+
+html, css, js.
