@@ -1,0 +1,51 @@
+body{
+  background-color: #000;
+  font-family:  Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+  height: 500px;
+  background-size: cover;
+}
+
+#center{
+  position: relative;
+  left: 20%;
+  width: 60%;
+  border: 5px solid #555;
+  background-color: #fff;
+}
+
+h1,p{
+  text-align: center;
+}
+
+
+p{
+  color: #000;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+#rock , #paper , #scissors{
+  position: relative;
+  left: 29%;
+  top: 10px;
+  height: 50px;
+  width: 80px;
+  margin-right: 20px;
+  border: 5px solid #000;
+  background-color: #fff;
+  transition: .6s all;
+  margin-bottom: 40px
+}
+
+#paper:hover, #rock:hover , #scissors:hover{
+  color: black;
+  box-shadow: inset 0 0 0 5em rgb(138, 132, 125);
+}
+
+#gamename{
+  color:rgb(39, 88, 224);
+}
